@@ -1,4 +1,4 @@
-/*
+
 --WARMUP
 Select s.Name, s.ProductSubcategoryID
 FROM [Production].[ProductSubcategory] s
@@ -277,7 +277,7 @@ ON P.ProductSubcategoryID = PSC.ProductSubcategoryID JOIN
 [Production].[ProductCategory] as PC
 ON PC.ProductCategoryID = PSC.ProductCategoryID
 GROUP BY PC.Name
-*/
+
 --12
 --credit rating no, product id count with this credit rating
 SELECT CreditRating, COUNT(ProductID) as 'Product Count'
