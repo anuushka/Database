@@ -1,4 +1,4 @@
-/*SELECT [Name], [ListPrice], [Color]
+SELECT [Name], [ListPrice], [Color]
 FROM [Production].[Product]
 WHERE [color] is not NULL
 
@@ -94,7 +94,6 @@ FROM [Production].[Product]
 WHERE [ProductSubcategoryID] IS NOT NULL
 GROUP BY [ProductSubcategoryID]
 ORDER BY COUNT(*) DESC
-*/
 
 SELECT LEN([Name]), COUNT(*)
 FROM [Production].[Product]
